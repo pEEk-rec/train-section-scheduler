@@ -1,0 +1,50 @@
+{
+  "time": 120.0,
+  "blocks": {
+    "B1": {"is_free": true, "current_train": null},
+    "B2": {"is_free": false, "current_train": "T1"},
+    "B3": {"is_free": true, "current_train": null},
+    "B4": {"is_free": false, "current_train": "T2"},
+    "B5": {"is_free": true, "current_train": null}
+  },
+  "switches": {
+    "SW1": {"is_available": true, "current_position": "straight"},
+    "SW2": {"is_available": true, "current_position": "diverging"}
+  },
+  "platforms": {
+    "P1": {"capacity": 2, "current_occupancy": 1},
+    "P2": {"capacity": 1, "current_occupancy": 0}
+  },
+  "trains": {
+    "T1": {
+      "priority": 1,
+      "state": "moving",
+      "current_block": "B2",
+      "next_block": "B3",
+      "sched_entry_time": 60.0,
+      "current_delay": 15.0,
+      "route": ["B1", "B2", "B3", "B4", "B5"],
+      "route_index": 2
+    },
+    "T2": {
+      "priority": 3,
+      "state": "waiting",
+      "current_block": "B4",
+      "next_block": "B5",
+      "sched_entry_time": 80.0,
+      "current_delay": 25.0,
+      "route": ["B3", "B4", "B5"],
+      "route_index": 2
+    },
+    "T3": {
+      "priority": 2,
+      "state": "waiting",
+      "current_block": null,
+      "next_block": "B1",
+      "sched_entry_time": 100.0,
+      "current_delay": 20.0,
+      "route": ["B1", "B2", "B3"],
+      "route_index": 0
+    }
+  }
+}

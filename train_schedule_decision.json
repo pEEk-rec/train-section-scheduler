@@ -1,0 +1,31 @@
+{
+  "timestamp": 120.0,
+  "optimization_metadata": {
+    "congestion_level": 0.4,
+    "total_actions": 3,
+    "waiting_trains": 2,
+    "bottleneck_blocks": []
+  },
+  "train_actions": [
+    {
+      "train_id": "T1",
+      "action_type": "move_to_block",
+      "estimated_duration": 30.0,
+      "target_block": "B3"
+    },
+    {
+      "train_id": "T2",
+      "action_type": "move_to_block",
+      "estimated_duration": 30.0,
+      "target_block": "B5"
+    },
+    {
+      "train_id": "T3",
+      "action_type": "move_to_block",
+      "estimated_duration": 30.0,
+      "target_block": "B1"
+    }
+  ],
+  "rl_predictions_used": true,
+  "safety_validated": true
+}
