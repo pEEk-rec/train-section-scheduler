@@ -1,0 +1,45 @@
+{
+  "sections": [
+    {
+      "id": "S1",
+      "length_m": 1000,
+      "max_speed_kmph": 80,
+      "connected_switches": ["SW1"]
+    },
+    {
+      "id": "S2",
+      "length_m": 1500,
+      "max_speed_kmph": 100,
+      "connected_switches": ["SW1"]
+    },
+    {
+      "id": "S3",
+      "length_m": 800,
+      "max_speed_kmph": 60
+    }
+  ],
+  "switches": [
+    { "id": "SW1" }
+  ],
+  "platforms": [
+    { "id": "P1", "capacity": 2 }
+  ],
+  "trains": [
+    {
+      "id": "T1",
+      "type": "express",
+      "priority": 1,
+      "route": ["S1", "S2", "S3"],
+      "sched_entry_time": 0.0,
+      "speed_kmph": 80
+    },
+    {
+      "id": "T2",
+      "type": "local",
+      "priority": 2,
+      "route": ["S1", "S2"],
+      "sched_entry_time": 10.0,
+      "speed_kmph": 60
+    }
+  ]
+}

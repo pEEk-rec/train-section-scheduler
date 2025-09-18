@@ -1,0 +1,672 @@
+[
+    {
+        "time": 0.0,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T1",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T1",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 5.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 10.0,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 10.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 15.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 20.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 25.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 30.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 35.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 40.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 45.0,
+        "event_type": "train_leaves_section",
+        "train_id": "T1",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T1",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 45.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 45.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T1",
+        "section_id": "S2",
+        "details": {
+            "train_id": "T1",
+            "section_id": "S2"
+        }
+    },
+    {
+        "time": 45.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 50.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 50.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 55.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 55.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 60.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 60.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 65.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 65.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 70.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 70.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 75.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 75.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 80.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 80.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 85.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 85.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 90.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 90.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 95.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 95.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 100.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 100.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 105.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 105.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 110.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 110.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 112.6,
+        "event_type": "train_leaves_section",
+        "train_id": "T1",
+        "section_id": "S2",
+        "details": {
+            "train_id": "T1",
+            "section_id": "S2"
+        }
+    },
+    {
+        "time": 112.69999999999999,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T1",
+        "section_id": "S3",
+        "details": {
+            "train_id": "T1",
+            "section_id": "S3"
+        }
+    },
+    {
+        "time": 115.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 115.1,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 120.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 125.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 130.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 135.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 140.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 145.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 150.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 155.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 160.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 160.7,
+        "event_type": "train_leaves_section",
+        "train_id": "T1",
+        "section_id": "S3",
+        "details": {
+            "train_id": "T1",
+            "section_id": "S3"
+        }
+    },
+    {
+        "time": 165.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 170.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 175.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 175.1,
+        "event_type": "train_leaves_section",
+        "train_id": "T2",
+        "section_id": "S1",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S1"
+        }
+    },
+    {
+        "time": 175.2,
+        "event_type": "train_arrival_at_section",
+        "train_id": "T2",
+        "section_id": "S2",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S2"
+        }
+    },
+    {
+        "time": 180.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 185.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 190.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 195.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 200.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 205.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 210.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 215.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 220.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 225.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 230.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 235.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 240.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 245.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 250.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 255.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 260.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 265.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 265.2,
+        "event_type": "train_leaves_section",
+        "train_id": "T2",
+        "section_id": "S2",
+        "details": {
+            "train_id": "T2",
+            "section_id": "S2"
+        }
+    },
+    {
+        "time": 270.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 275.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 280.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 285.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 290.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 295.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    },
+    {
+        "time": 300.0,
+        "event_type": "dispatch_decision",
+        "train_id": null,
+        "section_id": null,
+        "details": {}
+    }
+]
